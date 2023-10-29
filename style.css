@@ -53,4 +53,11 @@ a:nth-child(3){
 a:nth-child(4){
   filter:hue-rotate(300deg);
 }
-
+@media (max-width: 768px){
+  .wrapper{
+    flex-direction: column;
+  }
+  a{
+    margin: 10px 0;
+  }
+}
