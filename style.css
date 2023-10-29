@@ -12,6 +12,7 @@
   align-items: center;
   min-height: 100vh;
   background: black;
+  flex-wrap: wrap;
 }
 
 a{
@@ -26,7 +27,7 @@ a{
   font-weight: bold;
   transform: .5s;
   overflow: hidden;
-  margin-right: 60px;
+  margin: 20px;
 }
 a:hover{
   background-color: #03e9f4;
